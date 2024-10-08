@@ -7,7 +7,7 @@ ExitProcess PROTO, dwExitCode: DWORD  ; Exit process prototype
 .data ; data segment
 	; define your variables here
 	final_result DWORD ?
-	x_1 DWORD 35                     ;this is the variable for the value x
+	x_1 dd 35                        ;this is the variable for the value x ("dd" can be used in place of writing DWORD)
 	y_1 DWORD 45                     ;this is the variable for the value y
 	c_1 DWORD 60                     ;this is the variable for the value c
 	d_1 DWORD 55                     ;this is the variable for the value d
